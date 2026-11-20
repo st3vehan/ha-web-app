@@ -1,0 +1,7 @@
+# Copy to terraform.tfvars (git-ignored) and fill in.
+owner       = "your-name"
+alert_email = "you@example.com"
+repo_url    = "https://github.com/<your-github-username>/ha-web-app.git"
+
+# Cutover (Day 8): onprem_weight = 0, aws_weight = 100
+# After cutover:   allow_onprem_db_access = false
